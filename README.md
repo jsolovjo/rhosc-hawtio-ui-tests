@@ -15,7 +15,7 @@ Basic knowledge of:
 - Make issue reports if some bugs were found while developing new tests
 
 ## Getting started
-1. Make sure you have Java, Maven and Git installed and configured n your machine
+1. Make sure you have Java, Maven and Git installed and configured in your machine
 
 2. Clone this repository
     ```
