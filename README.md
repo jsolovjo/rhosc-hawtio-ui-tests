@@ -6,6 +6,7 @@ Basic knowledge of:
 - Java
 - Maven
 - HTML, CSS, XPath
+- Cucumber framework
 - Selenium and Selenide frameworks
 
 ## The main goals of this project are:
