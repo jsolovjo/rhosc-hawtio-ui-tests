@@ -69,6 +69,10 @@ This repository is created specifically for Red Hat Open Source Contest (RHOSC).
 
 7. Open `http://localhost:10001/actuator/hawtio/` in your web browser
 
+8. Login credentials:
+Username: `hawtio`
+Password: `hawtio`
+
 ## Source links
 ### HawtIO project
 [https://github.com/hawtio/hawtio](https://github.com/hawtio/hawtio)
