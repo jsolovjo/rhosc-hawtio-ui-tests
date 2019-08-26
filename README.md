@@ -35,10 +35,11 @@ This repository is created specifically for Red Hat Open Source Contest (RHOSC).
     git clone https://github.com/hawtio/hawtio.git
     ```
     
-2. Go to `.../hawtio/examples/springboot-authentication/`
+2. Go to `.../hawtio/` and build the project with command `mvn clean install`    
 
-3. Open and edit `pom.xml
-    Add the following dependency:
+3. Go to `.../hawtio/examples/springboot-authentication/`
+
+4. Open and edit `pom.xml` and add the following dependency:
     ```
     <dependency>
         <groupId>org.apache.camel</groupId>
@@ -47,8 +48,7 @@ This repository is created specifically for Red Hat Open Source Contest (RHOSC).
     </dependency>
     ```
     
-4. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring` 
-    and add a new Java class with the following content:
+5. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring` and add a new Java class with the following content:
     ```
     package com.example;
 
@@ -65,6 +65,13 @@ This repository is created specifically for Red Hat Open Source Contest (RHOSC).
     }
     ```
     
-5. Go to `.../hawtio/examples/springboot-authentication/` and run the command: `mvn spring-boot:run`
+6. Go to `.../hawtio/examples/springboot-authentication/` and run the command: `mvn spring-boot:run`
 
-6. Open `http://localhost:10001/actuator/hawtio/` in your web browser
+7. Open `http://localhost:10001/actuator/hawtio/` in your web browser
+
+## Source links
+### HawtIO project
+[https://github.com/hawtio/hawtio](https://github.com/hawtio/hawtio)
+
+### Camel Spring Boot starter
+[https://camel.apache.org/components/latest/spring-boot.html#SpringBoot-CamelSpringBootStarter](https://camel.apache.org/components/latest/spring-boot.html#SpringBoot-CamelSpringBootStarter)
