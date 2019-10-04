@@ -27,7 +27,7 @@ public class SpringBootTestSuiteParent {
 		System.setProperty("hawtio.proxyWhitelist", "localhost, 127.0.0.1");
 		WebDriverManager.chromedriver().setup();
 		//when browser size is too small, some buttons don't appear and tests are failing
-		Configuration.browserSize = "1920x1080";
+		//Configuration.browserSize = "1440x900";
 		return open(LoginPage.class).login("hawtio", "hawtio");
 	}
 
