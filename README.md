@@ -98,3 +98,6 @@ Password: `hawtio`
 
 ### Camel Spring Boot starter
 [https://camel.apache.org/components/latest/spring-boot.html#SpringBoot-CamelSpringBootStarter](https://camel.apache.org/components/latest/spring-boot.html#SpringBoot-CamelSpringBootStarter)
+
+### Apache Karaf
+[https://karaf.apache.org/](https://karaf.apache.org/)
