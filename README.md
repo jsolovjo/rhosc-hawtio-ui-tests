@@ -38,8 +38,8 @@ Designed specifically for Red Hat Open Source Contest purpose.
    mvn clean install -Dhawtio -Dhawtio.spring-boot -Dbrowser=chrome
    ```
 
-### Test application setup and run
-## HawtIO on Spring Boot 1
+## Test application setup and run
+### HawtIO on Spring Boot 1
 1. Clone HawtIO project
     ```
     git clone https://github.com/hawtio/hawtio.git
@@ -83,7 +83,7 @@ Designed specifically for Red Hat Open Source Contest purpose.
 Username: `hawtio`  
 Password: `hawtio`
 
-## HawtIO in Karaf
+### HawtIO in Karaf
 1. Download [Karaf Runtime Binary Distribution](https://karaf.apache.org/download.html)
 
 2. Follow the steps from the [docs](https://karaf.apache.org/get-started.html) how to get started with Karaf
