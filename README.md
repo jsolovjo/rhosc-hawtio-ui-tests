@@ -88,7 +88,7 @@ Password: `hawtio`
 
 2. Follow the steps from the [docs](https://karaf.apache.org/get-started.html) how to get started with Karaf
 
-3. Deploy HawtIo on Karaf following the steps from [here](https://hawt.io/docs/get-started/#deploying-on-apache-karaf)
+3. Deploy HawtIO on Karaf following the steps from [here](https://hawt.io/docs/get-started/#deploying-on-apache-karaf)
 
 4. Run the quickstarts following the steps from [here](https://blog.stackleader.com/camel/2016/05/02/deploy-apache-camel-quickstart-karaf.html)
 
