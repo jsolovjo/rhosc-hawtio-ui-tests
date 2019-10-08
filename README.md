@@ -92,6 +92,12 @@ Password: `hawtio`
 
 4. Run the quickstarts following the steps from [here](https://blog.stackleader.com/camel/2016/05/02/deploy-apache-camel-quickstart-karaf.html)
 
+5. Open `http://localhost:8181/hawtio/` in your web browser
+
+6. Login credentials:  
+Username: `karaf`  
+Password: `karaf`
+
 ## Source links
 ### HawtIO project
 [https://github.com/hawtio/hawtio](https://github.com/hawtio/hawtio)
