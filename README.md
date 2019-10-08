@@ -39,7 +39,7 @@ Designed specifically for Red Hat Open Source Contest purpose.
    ```
 
 ### Test application setup and run
-## HawtIo on Spring Boot 1
+## HawtIO on Spring Boot 1
 1. Clone HawtIO project
     ```
     git clone https://github.com/hawtio/hawtio.git
