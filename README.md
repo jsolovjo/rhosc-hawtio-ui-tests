@@ -46,10 +46,20 @@ Designed specifically for Red Hat Open Source Contest purpose.
     ```
     
 2. Go to `.../hawtio/` and build the project with command `mvn clean install`    
+    
+3. Go to `.../hawtio/examples/springboot-authentication/` and run the command: `mvn spring-boot:run`
 
-3. Go to `.../hawtio/examples/springboot-authentication/`
+4. Open `http://localhost:10001/actuator/hawtio/` in your web browser
 
-4. Open and edit `pom.xml` and add the following dependency:
+5. Login credentials:  
+Username: `hawtio`  
+Password: `hawtio`
+
+Next steps are for having simple Camel quickstart:
+
+1. Go to `.../hawtio/examples/springboot-authentication/`
+
+2. Open and edit `pom.xml` and add the following dependency:
     ```
     <dependency>
         <groupId>org.apache.camel</groupId>
@@ -58,7 +68,7 @@ Designed specifically for Red Hat Open Source Contest purpose.
     </dependency>
     ```
     
-5. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring/boot` and add a new Java class with the following content:
+3. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring/boot` and add a new Java class with the following content:
     ```
     package com.example;
 
@@ -74,14 +84,6 @@ Designed specifically for Red Hat Open Source Contest purpose.
         }
     }
     ```
-    
-6. Go to `.../hawtio/examples/springboot-authentication/` and run the command: `mvn spring-boot:run`
-
-7. Open `http://localhost:10001/actuator/hawtio/` in your web browser
-
-8. Login credentials:  
-Username: `hawtio`  
-Password: `hawtio`
 
 ### HawtIO in Karaf
 1. Download [Karaf Runtime Binary Distribution](https://karaf.apache.org/download.html)
