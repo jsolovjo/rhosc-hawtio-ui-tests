@@ -101,3 +101,6 @@ Password: `hawtio`
 
 ### Apache Karaf
 [https://karaf.apache.org/](https://karaf.apache.org/)
+
+### Apache Camel Quickstarts
+[https://blog.stackleader.com/camel/2016/05/02/deploy-apache-camel-quickstart-karaf.html](https://blog.stackleader.com/camel/2016/05/02/deploy-apache-camel-quickstart-karaf.html)
