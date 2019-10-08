@@ -39,6 +39,7 @@ Designed specifically for Red Hat Open Source Contest purpose.
    ```
 
 ### Test application setup and run
+## HawtIo on Spring Boot 1
 1. Clone HawtIO project
     ```
     git clone https://github.com/hawtio/hawtio.git
@@ -57,7 +58,7 @@ Designed specifically for Red Hat Open Source Contest purpose.
     </dependency>
     ```
     
-5. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring` and add a new Java class with the following content:
+5. Go to `.../hawtio/examples/springboot-authentication/src/main/java/io/hawt/example/spring/boot` and add a new Java class with the following content:
     ```
     package com.example;
 
@@ -81,6 +82,15 @@ Designed specifically for Red Hat Open Source Contest purpose.
 8. Login credentials:  
 Username: `hawtio`  
 Password: `hawtio`
+
+## HawtIO in Karaf
+1. Download [Karaf Runtime Binary Distribution](https://karaf.apache.org/download.html)
+
+2. Follow the steps from the [docs](https://karaf.apache.org/get-started.html) how to get started with Karaf
+
+3. Deploy HawtIo on Karaf following the steps from [here](https://hawt.io/docs/get-started/#deploying-on-apache-karaf)
+
+4. Run the quickstarts following the steps from [here](https://blog.stackleader.com/camel/2016/05/02/deploy-apache-camel-quickstart-karaf.html)
 
 ## Source links
 ### HawtIO project
