@@ -1,6 +1,7 @@
 package io.hawt.stepdefinitions.menu;
 
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
 import io.hawt.pageobjects.pages.HawtioPage;
 import io.hawt.pageobjects.pages.camel.CamelPage;
 import io.hawt.pageobjects.pages.connect.ConnectPage;
@@ -19,5 +20,10 @@ public class MainMenuStepDefs {
 	@Given("^User is on Hawtio main page$")
 	public void userIsOnHawtioMainPage() {
 		hawtioPage = new HawtioPage();
+	}
+
+	@When("^User clicks on Camel in Spring Boot main menu$")
+	public void userClicksOnCamelInMainMenu() {
+		camelPage = hawtioPage.springBootMenu().camel();
 	}
 }
