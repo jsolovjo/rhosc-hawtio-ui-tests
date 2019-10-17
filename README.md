@@ -33,9 +33,14 @@ Designed specifically for Red Hat Open Source Contest purpose.
 
 4. Develop new UI tests - enjoy and have a fun!
 
-5. Command to run tests
+5. Command to run all tests
    ```
-   mvn clean install -Dhawtio -Dhawtio.spring-boot -Dbrowser=chrome -Dtest=RunSpringBootTests
+   mvn clean install -Dhawtio -Dhawtio.[spring-boot|karaf] -Dbrowser=chrome
+   ```
+
+6. Command to specific run tests (for instance, tests designed for Help page)
+   ```
+   mvn clean install -Dhawtio -Dhawtio.[spring-boot|karaf] -Dbrowser=chrome -Dtest=RunHelpTests
    ```
 
 ## Test application setup and run
