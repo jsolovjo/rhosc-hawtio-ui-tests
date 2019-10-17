@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<artifactId>hawtio-tests</artifactId>
+		<groupId>com.github.jsolovjo.rhosc-hawtio-ui-tests</groupId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>hawtio-karaf-tests</artifactId>
+
+	<properties>
+		<!--this version runs by default if you don't specify the version-->
+		<version.org.hamcrest>1.3</version.org.hamcrest>
+		<version.selenium>3.0.1</version.selenium>
+		<version.selenide>4.3</version.selenide>
+		<version.cucumber>4.3.1</version.cucumber>
+		<jetty.version>9.4.9.v20180320</jetty.version>
+		<hawtio.url>/actuator/hawtio/index.html</hawtio.url>
+	</properties>
+
+	<dependencies>
+		<!--SELENIUM-->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+			<version>${version.selenium}</version>
+		</dependency>
+		<!-- SELENIDE -->
+		<dependency>
+			<groupId>com.codeborne</groupId>
+			<artifactId>selenide</artifactId>
+			<version>${version.selenide}</version>
+		</dependency>
+		<!--cucumber framework-->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>${version.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>${version.cucumber}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<artifactId>hawtio-utils</artifactId>
+			<groupId>com.github.jsolovjo.rhosc-hawtio-ui-tests</groupId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
