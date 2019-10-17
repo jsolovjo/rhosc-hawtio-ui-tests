@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>hawtio-utils</module>
+		<module>hawtio-karaf-tests</module>
 	</modules>
 
 	<artifactId>hawtio-tests</artifactId>
@@ -37,6 +38,17 @@
 			</activation>
 			<modules>
 				<module>hawtio-springboot-tests</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>hawtio-karaf</id>
+			<activation>
+				<property>
+					<name>hawtio.karaf</name>
+				</property>
+			</activation>
+			<modules>
+				<module>hawtio-karaf-tests</module>
 			</modules>
 		</profile>
 	</profiles>
