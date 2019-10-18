@@ -1,4 +1,4 @@
-package io.hawt.pageobjects.pages.camel.endpoints;
+package io.hawt.pageobjects.pages.camel.contexts.specificContext.endpoints;
 
 import io.hawt.pageobjects.fragments.camel.tabs.common.CamelAttributes;
 import io.hawt.pageobjects.fragments.camel.tabs.common.CamelChartView;

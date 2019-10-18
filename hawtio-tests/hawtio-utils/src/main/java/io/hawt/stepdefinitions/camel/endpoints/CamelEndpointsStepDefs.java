@@ -4,7 +4,7 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.When;
 import io.hawt.pageobjects.fragments.camel.tabs.endpoints.CamelEndpoints;
 import io.hawt.pageobjects.pages.camel.CamelPage;
-import io.hawt.pageobjects.pages.camel.endpoints.CamelEndpointsPage;
+import io.hawt.pageobjects.pages.camel.contexts.specificContext.endpoints.CamelEndpointsPage;
 
 public class CamelEndpointsStepDefs {
 	private CamelPage camelPage = new CamelPage();
