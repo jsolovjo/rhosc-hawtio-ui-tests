@@ -13,6 +13,7 @@
 	<modules>
 		<module>hawtio-utils</module>
 		<module>hawtio-karaf-tests</module>
+		<module>hawtio-springboot-tests</module>
 	</modules>
 
 	<artifactId>hawtio-tests</artifactId>
