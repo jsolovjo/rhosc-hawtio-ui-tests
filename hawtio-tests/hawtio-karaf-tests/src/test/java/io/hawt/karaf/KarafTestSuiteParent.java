@@ -19,7 +19,7 @@ public class KarafTestSuiteParent {
 		return Selenide.open("http://localhost:" + managementPort + System.getProperty("hawtio.url.suffix"), pageObjectClass);
 	}
 
-	@Before
+	@Before ("not @authenticationTests")
 	public HawtioPage login() {
 		//need to set this system property also here, otherwise it's not set for the tests, even when it's in ApplicationConfig.class
 		System.setProperty("hawtio.proxyWhitelist", "localhost, 127.0.0.1");
@@ -29,7 +29,15 @@ public class KarafTestSuiteParent {
 		return open(LoginPage.class).login("karaf", "karaf");
 	}
 
-	@After
+	@Before ("@authenticationTests")
+	public void openHawtio() {
+		//need to set this system property also here, otherwise it's not set for the tests, even when it's in ApplicationConfig.class
+		System.setProperty("hawtio.proxyWhitelist", "localhost, 127.0.0.1");
+		WebDriverManager.chromedriver().setup();
+		open(LoginPage.class);
+	}
+
+	@After("not @authenticationTests")
 	public void logout() {
 		panel.logout();
 	}
