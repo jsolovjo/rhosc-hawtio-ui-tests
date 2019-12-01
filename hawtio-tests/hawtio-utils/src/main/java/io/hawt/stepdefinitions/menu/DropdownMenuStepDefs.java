@@ -10,7 +10,7 @@ import io.hawt.pageobjects.pages.preferences.PreferencesPage;
 public class DropdownMenuStepDefs {
 	private HawtioPage hawtioPage = new HawtioPage();
 	private HelpPage helpPage;
-	private Dialog aboutDialog;
+	private Dialog aboutDialog = new Dialog();
 	private PreferencesPage preferencesPage;
 
 	@When("^User clicks on Help in right dropdown menu with question mark$")
