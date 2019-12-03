@@ -5,6 +5,7 @@ import static com.codeborne.selenide.Condition.value;
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
+import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
 
 import io.hawt.pageobjects.pages.HawtioPage;
@@ -33,4 +34,11 @@ public class PreferencesCamel extends HawtioPage {
 		$(By.xpath("//input[@id='" + setting + "']")).shouldHave(not(value(value)));
 		return this;
 	}
+//	public void userClicksOnCamelPage() {
+//		$(By.xpath("//a[@class='ng-binding'][contains(text(),'Camel')]")).shouldBe(Condition.visible).click();
+//	}
+//	public void setValueAndSetting(String value, String setting) {
+//		$(By.xpath("//input[@id='" + setting + "']")).shouldBe(Condition.visible).setValue(value);
+//	}
+
 }
